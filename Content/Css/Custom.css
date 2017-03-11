@@ -1,0 +1,155 @@
+﻿
+::selection {
+    background: #4e342e;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #4e342e;
+    color: #fff;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+nav .border {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+nav ul a:hover {
+    background: rgb(243, 241, 241);
+}
+
+nav .brand-logo {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.border a:hover {
+    border-bottom: 3px solid;
+    border-bottom-color: #795548;
+    color: #3e2723 !important;
+}
+
+.icon-scroll {
+    margin-top: -20px;
+    
+}
+
+.mask {
+    border: 4px solid #4e342e;
+    background-color: #4e342e;
+    color: #FFF;
+}
+
+
+.panel1 {
+    margin-top: 8%;
+}
+
+.particle-parallax {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+.progress .determinate {
+    background-color: #4e342e;
+}
+
+.progress {
+    background-color: rgba(121, 98, 93, 0.08) ;
+}
+
+.particle {
+    background-image: url(../../Images/tri.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.donut {
+    border-radius: 50%;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 4px solid #ececec;
+}
+
+.socials {
+    color: #000000;
+}
+
+    .socials ul li a:hover {
+        background-color: #d0d0d0;
+        border-radius: 40px;
+    }
+
+    .socials ul {
+        list-style: none;
+        display: inline;
+    }
+
+        .socials ul li {
+            display: inline;
+        }
+
+
+.logo {
+    float: left;
+    margin-left: 10%;
+}
+
+.partic-text {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.colors-line {
+    background-image: url('../../Images/colors-line.png');
+    width: 100%;
+    height: 3px;
+    float: left;
+}
+
+.ninja {
+    position: relative;
+    margin-top: 7%;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 480px) and (max-width: 600px) {
+    .page-footer {
+        text-align: center;
+    }
+
+    .ninja {
+        margin-left: 5%;
+    }
+
+    .panel1 {
+        margin-top: 13%;
+    }
+
+   .icon-scroll {
+       margin-top: -10%;
+   }
+}
